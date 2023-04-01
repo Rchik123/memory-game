@@ -49,7 +49,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
         android:scaleType="fitXY"
-        app:layout_constraintBottom_toTopOf="@+id/cardImage4"
+        app:layout_constraintBottom_toTopOf="@+id/cardImage2"
         app:layout_constraintEnd_toStartOf="@+id/cardImage1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
@@ -64,40 +64,10 @@
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
         android:scaleType="fitXY"
-        app:layout_constraintBottom_toTopOf="@+id/cardImage5"
+        app:layout_constraintBottom_toTopOf="@+id/cardImage3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/cardImage0"
         app:layout_constraintTop_toBottomOf="@+id/textView2"
-        app:srcCompat="@drawable/card_back" />
-
-    <ImageView
-        android:id="@+id/cardImage2"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="16dp"
-        android:scaleType="fitXY"
-        app:layout_constraintBottom_toTopOf="@+id/restartButton"
-        app:layout_constraintEnd_toStartOf="@+id/cardImage3"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cardImage4"
-        app:srcCompat="@drawable/card_back" />
-
-    <ImageView
-        android:id="@+id/cardImage3"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="16dp"
-        android:scaleType="fitXY"
-        app:layout_constraintBottom_toTopOf="@+id/restartButton"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/cardImage2"
-        app:layout_constraintTop_toBottomOf="@+id/cardImage5"
         app:srcCompat="@drawable/card_back" />
 
     <ImageView
@@ -107,12 +77,12 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
+        android:layout_marginBottom="16dp"
         android:scaleType="fitXY"
-        app:layout_constraintBottom_toTopOf="@+id/cardImage2"
+        app:layout_constraintBottom_toTopOf="@+id/restartButton"
         app:layout_constraintEnd_toStartOf="@+id/cardImage5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cardImage0"
+        app:layout_constraintTop_toBottomOf="@+id/cardImage2"
         app:srcCompat="@drawable/card_back" />
 
     <ImageView
@@ -122,11 +92,41 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
+        android:layout_marginBottom="16dp"
         android:scaleType="fitXY"
-        app:layout_constraintBottom_toTopOf="@+id/cardImage3"
+        app:layout_constraintBottom_toTopOf="@+id/restartButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/cardImage4"
+        app:layout_constraintTop_toBottomOf="@+id/cardImage3"
+        app:srcCompat="@drawable/card_back" />
+
+    <ImageView
+        android:id="@+id/cardImage2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toTopOf="@+id/cardImage4"
+        app:layout_constraintEnd_toStartOf="@+id/cardImage3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardImage0"
+        app:srcCompat="@drawable/card_back" />
+
+    <ImageView
+        android:id="@+id/cardImage3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toTopOf="@+id/cardImage5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/cardImage2"
         app:layout_constraintTop_toBottomOf="@+id/cardImage1"
         app:srcCompat="@drawable/card_back" />
 
