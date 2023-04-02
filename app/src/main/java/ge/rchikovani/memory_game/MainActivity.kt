@@ -65,8 +65,8 @@ class MainActivity : AppCompatActivity() {
             cardView.setImageResource(R.drawable.card_back)
         }
 
-        val intToCard = mapOf(0 to R.drawable.card_jack, 1 to R.drawable.card_queen, 2 to R.drawable.card_king)
-        val cardsLeft = mutableMapOf(R.drawable.card_jack to 2, R.drawable.card_queen to 2, R.drawable.card_king to 2)
+        val intToCard = mapOf(0 to R.drawable.card_uther, 1 to R.drawable.card_guldan, 2 to R.drawable.card_jaina)
+        val cardsLeft = mutableMapOf(R.drawable.card_uther to 2, R.drawable.card_guldan to 2, R.drawable.card_jaina to 2)
 
         for (cardView in cardViews) {
             while(true) {
