@@ -1,4 +1,6 @@
 <resources>
     <string name="app_name">Memory Game</string>
     <string name="restart_btn_name">RESTART</string>
+    <string name="success_text">Success: %d</string>
+    <string name="fail_text">Fail: %d</string>
 </resources>
